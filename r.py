@@ -34,7 +34,7 @@ def handle(msg):
 		bot.sendMessage(chat_id,final_url)		
 		return 
 		
-bot = telepot.Bot('283665310:AAHoq0_Ma8mjh3xbNlSVWgWlNRvrMCKTtSA')
+bot = telepot.Bot('Your Token Here')
 bot.message_loop(handle)
 print 'listening'
 
